@@ -1,0 +1,28 @@
+<div class="signin-content">
+    <mat-card>
+        <mat-card-content>
+            <form [formGroup]="form" (ngSubmit)="onSubmit()" autocomplete="off">
+                <p>Please login to continue</p>
+                <mat-form-field class="full-width-input">
+                    <input matInput placeholder="User" formControlName="uname" id="uname" required>
+                    <!--mat-error *ngIf="isFieldInvalid('userName')">
+              Please inform your user name
+            </mat-erro  
+        -->
+                </mat-form-field>
+                <mat-form-field class="full-width-input">
+                    <input matInput type="password" placeholder="Password" formControlName="pword" id="pword" required>
+                    <!--mat-error *ngIf="isFieldInvalid('userName')">
+              Please inform your password
+            </mat-error -->
+                </mat-form-field>
+                <mat-form-field class="full-width-input">
+                    <input matInput placeholder="Email" formControlName="email" id="email" required>
+                    <!--mat-error *ngIf="isFieldInvalid('userName')">
+              Please inform your user name
+            </mat-error -->
+                </mat-form-field>
+            </form>
+        </mat-card-content>
+    </mat-card>
+</div>

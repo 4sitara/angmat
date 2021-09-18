@@ -1,0 +1,9 @@
+{
+    "students": [
+        { "id": 1, "name": "sitara", "Address": "xyz", "email": "412@sitara" }
+    ],
+    "comments": [
+        { "id": 1, "body": "some comment", "postId": 1 }
+    ],
+    "profile": { "name": "typicode" }
+}
